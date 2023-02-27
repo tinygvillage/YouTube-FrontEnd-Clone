@@ -19,6 +19,8 @@ header {
 .left-section{
   display: flex;
   align-items: center;
+  position: relative;
+
 }
 
 .search-bar {
@@ -90,6 +92,7 @@ opacity: 1;
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .voice-search-button {
@@ -104,6 +107,25 @@ opacity: 1;
   height: 24px;
   margin-top: 4px;
 }
+/* .hamburger-menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: white;
+  border: none;
+} */
+
+/* .hamburger-menu-container:hover {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(245, 245, 245);
+  /* position: absolute;
+  top: 20px;
+  left: 20px; */
+/* } */ 
 
 .hamburger-menu {
   height: 20px;

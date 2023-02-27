@@ -24,6 +24,10 @@
   grid-template-columns: 50px 1fr;
 }
 
+@media (max-width: 600px) {
+  
+}
+
 .profile-picture {
   width: 36px;
   border-radius: 50px;
